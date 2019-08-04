@@ -8,7 +8,7 @@
 	$_SESSION['success'] = "";
 
 	// connect to database
-	$db = mysqli_connect('localhost', 'root', '159753852cafarc', 'prospect_erp');
+	$db = mysqli_connect('localhost', 'username', 'password', 'dbname');
 
 	// REGISTER USER
 	if (isset($_POST['reg_user'])) {
